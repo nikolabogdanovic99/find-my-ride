@@ -1,5 +1,3 @@
-<svelte:options runes={true} />
-
 <script>
 	import ListingCard from "$lib/components/ListingCard.svelte";
 

@@ -1,8 +1,5 @@
-<svelte:options runes={true} />
-
 <script>
 	import ListingCard from "$lib/components/ListingCard.svelte";
-	import { formatDate, formatDistance, formatPrice } from "$lib/util.js";
 
 	let { data } = $props();
 	const { garage, listings } = data;

@@ -1,5 +1,3 @@
-<svelte:options runes={true} />
-
 <script>
 	import GarageCard from "$lib/components/GarageCard.svelte";
 
